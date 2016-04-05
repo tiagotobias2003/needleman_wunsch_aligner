@@ -38,7 +38,7 @@ class NeedlemanWunschAligner
   # Returns the default penalty for a gap.
   # @return [Numeric]
   def default_gap_penalty
-    -1
+    -10
   end
 
   # Returns a sequence element to indicate a gap. Needs to be compatible with
